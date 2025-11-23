@@ -9,7 +9,7 @@ const Banner = () => {
             <img src={toy} class="ml-80 mb-20 rounded-2xl"/>
         </div>
         <div class="px-90 space-y-5 mt-15">
-            <p class="gap-4">
+            <p class="gap-4 text-white">
                🏎️ Buckle up for a ride into fun, speed, and imagination! Our car toys are built for thrills, races, and epic adventures — from turbo-charged racers to mini off-road beasts. Each toy is crafted for durability, detail, and dynamic play, sparking curiosity and creativity in every child
             </p>
             

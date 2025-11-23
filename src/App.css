@@ -4,3 +4,55 @@
   font-family: "Libre Baskerville", serif;
   font-style: normal;
 }
+  .slider {
+      width: 70%;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+      margin: 40px auto;
+    }
+
+    .slides {
+      position: absolute;
+      width: 1800px; /* 600 * 3 slides */
+      height: 100%;
+      animation: moveSlides 12s infinite ease-in-out;
+    }
+
+    .slide {
+      width: 600px;
+      height: 100%;
+      float: left;
+      position: relative;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .text-box-left,
+    .text-box-right {
+      position: absolute;
+      top: 30%;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      max-width: 300px;
+    }
+
+    .text-box-left {
+      left: 5%;
+    }
+
+    .text-box-right {
+      right: 5%;
+    }
+
+    @keyframes moveSlides {
+      0%   { transform: translateX(0); }
+      33.333% { transform: translateX(-600px); }
+      66.666% { transform: translateX(-1200px); }
+      100% { transform: translateX(0); }
+    }

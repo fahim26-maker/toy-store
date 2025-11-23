@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router";
 import HomeLayouts from "../components/HomeLayouts";
 import Home from "../pages/Home/Home";
+import ToyDetails from "../pages/toyDetails/ToyDetails";
 
 const router = createBrowserRouter([
     {
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
     {
         path: "my-profile",
         element: <h1>home</h1>,
+    },
+    {
+        path: "toyDetails/:id",
+        loader: () => fetch('/cars.json'),
+        element: <ToyDetails></ToyDetails>
     },
     {
         path: "/*",

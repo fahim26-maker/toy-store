@@ -1,0 +1,74 @@
+[
+  {
+    "toyId": 1,
+    "toyName": "Turbo Racer X1",
+    "sellerName": "Speedy Wheels",
+    "sellerEmail": "sales@speedywheels.com",
+    "price": "৳3295",
+    "rating": 4.6,
+    "availableQuantity": 120,
+    "description": "The Turbo Racer X1 is a high-speed toy car designed for young racing enthusiasts. With its aerodynamic design, vibrant red and black color scheme, and durable plastic body, this car is built for thrilling races on any surface. It features friction-powered wheels that allow it to zoom forward with just a gentle push. Kids will love staging races and creating their own tracks. The Turbo Racer X1 encourages imaginative play, hand-eye coordination, and an early interest in engineering and motion. Whether indoors or outdoors, this toy delivers hours of fun and excitement for children aged 4 and up.",
+    "pictureURL": "https://i.postimg.cc/yYL5XwC4/04-Hyper-Racer-X1-Rear-3-4-scaled.jpg",
+    "subCategory": "Toy Cars"
+  },
+  {
+    "toyId": 2,
+    "toyName": "Monster Truck Mayhem",
+    "sellerName": "Big Wheels Toys",
+    "sellerEmail": "info@bigwheelstoys.com",
+    "price": "৳3795",
+    "rating": 4.8,
+    "availableQuantity": 60,
+    "description": "Monster Truck Mayhem is the ultimate toy for kids who love action-packed adventures. This rugged monster truck features oversized wheels, shock-absorbing suspension, and a bold flame design that screams excitement. Built to conquer any terrain, from backyard dirt tracks to indoor obstacle courses, this truck can handle it all. The durable construction ensures it can withstand rough play, while the realistic detailing adds to the thrill. Kids can create their own monster truck rallies, perform stunts, and challenge their friends to epic showdowns. Perfect for children aged 5 and up, it promotes creativity, coordination, and outdoor play.",
+    "pictureURL": "https://i.postimg.cc/1t07gdrF/images.jpg",
+    "subCategory": "Toy Cars"
+  },
+  {
+    "toyId": 3,
+    "toyName": "City Cruiser Convertible",
+    "sellerName": "Urban Playthings",
+    "sellerEmail": "support@urbanplaythings.com",
+    "price": "৳2749",
+    "rating": 4.5,
+    "availableQuantity": 90,
+    "description": "The City Cruiser Convertible is a stylish and sleek toy car that brings urban adventures to life. Designed with a glossy blue finish and realistic interior details, this convertible is perfect for imaginative city drives. The doors open and close, and the wheels roll smoothly, making it ideal for pretend play. Whether cruising through make-believe city streets or parked at a toy café, this car adds flair to any play session. It encourages storytelling, fine motor skills, and social interaction. Suitable for kids aged 3 and above, the City Cruiser is a must-have for any young car enthusiast’s collection.",
+    "pictureURL": "https://i.postimg.cc/ZqHyCFy8/PT-2.avif",
+    "subCategory": "Toy Cars"
+  },
+  {
+    "toyId": 4,
+    "toyName": "Police Patrol SUV",
+    "sellerName": "Heroic Kids Co.",
+    "sellerEmail": "hello@heroickids.com",
+    "price": "৳3050",
+    "rating": 4.9,
+    "availableQuantity": 50,
+    "description": "The Police Patrol SUV is a dynamic toy vehicle that lets kids take on the role of brave officers keeping the city safe. With flashing lights, realistic siren sounds, and a sturdy build, this SUV is ready for high-speed chases and rescue missions. The detailed design includes police decals, a working trunk, and a detachable roof. Children can create thrilling scenarios, enhancing their storytelling and problem-solving skills. Ideal for kids aged 4 and up, this toy promotes imaginative play and introduces the concept of community helpers. It’s a fantastic addition to any toy car collection or playset.",
+    "pictureURL": "https://i.postimg.cc/QMTyDC9G/car-decal-design-modern-art-260nw-2212906861.webp",
+    "subCategory": "Toy Cars"
+  },
+  {
+    "toyId": 5,
+    "toyName": "Vintage Classic Coupe",
+    "sellerName": "Retro Toy Garage",
+    "sellerEmail": "contact@retrogarage.com",
+    "price": "৳4399",
+    "rating": 4.4,
+    "availableQuantity": 40,
+    "description": "Step back in time with the Vintage Classic Coupe, a beautifully crafted toy car that captures the elegance of old-school automobiles. Featuring a polished metallic finish, intricate grille detailing, and rubber tires, this car is a collector’s dream and a child’s delight. It’s perfect for both display and play, offering a tactile experience with its smooth-rolling wheels and sturdy frame. Kids can explore the golden age of motoring while developing their imagination and appreciation for design. Ideal for children aged 6 and up, this toy also makes a charming gift for vintage car lovers of all ages.",
+    "pictureURL": "https://i.postimg.cc/5yx78mP0/f7bad20eca4281f9a10fe7e27333a33edb011d17-1197x671-(1).avif",
+    "subCategory": "Toy Cars"
+  },
+  {
+    "toyId": 6,
+    "toyName": "Remote Control Drift King",
+    "sellerName": "RC Fun World",
+    "sellerEmail": "support@rcfunworld.com",
+    "price": "৳6595",
+    "rating": 4.9,
+    "availableQuantity": 35,
+    "description": "The Remote Control Drift King is engineered for speed, precision, and excitement. This high-performance RC car features a powerful motor, responsive steering, and specialized tires for smooth drifting action. With a sleek, aerodynamic body and LED headlights, it looks as fast as it drives. The included remote offers full directional control, allowing kids to master tight turns and daring maneuvers. Whether racing indoors or outdoors, the Drift King delivers thrilling fun and helps develop hand-eye coordination and spatial awareness. Rechargeable and built to last, it’s perfect for kids aged 8 and up who crave adrenaline-fueled playtime.",
+    "pictureURL": "https://i.postimg.cc/KvpqgBtb/images-(1).jpg",
+    "subCategory": "Toy Cars"
+  }
+]

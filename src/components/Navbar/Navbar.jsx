@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { use } from 'react';
 import logo from "../../assets/toys-corner-logo.jpg"
 import { Link } from 'react-router';
+import { AuthContext } from '../../provider/AuthProvider';
 
 
 const Navbar = () => {
+    const {user} = use(AuthContext); 
     return (
         <div className='flex justify-between p-4 px-30 bg-gray-200'>
+            <div>{user && user.email}</div>
             <div className='flex'>
                 <img src={logo} className='h-10 rounded-full mr-2'/>
                 <h1 className='font-semibold text-2xl'>ToyTopia – <span className='text-sm text-gray-500'>A Local Kids Toy Store Platform</span></h1>

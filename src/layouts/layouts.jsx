@@ -1,16 +1,14 @@
-import React from 'react';
-import HomeLayouts from '../components/HomeLayouts';
-import Home from '../pages/Home/Home';
-
-
+import React from "react";
+import HomeLayouts from "./Homelayout/HomeLayouts";
+import Home from "../pages/Home/Home";
 
 const layouts = () => {
-    return (
-        <div>
-           <HomeLayouts></HomeLayouts>
-           <Home></Home>
-        </div>
-    );
+  return (
+    <div>
+      <HomeLayouts></HomeLayouts>
+      <Home></Home>
+    </div>
+  );
 };
 
 export default layouts;

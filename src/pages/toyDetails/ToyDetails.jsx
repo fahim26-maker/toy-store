@@ -23,6 +23,7 @@ const ToyDetails = () => {
         <p><span className='font-bold'>Price: </span>{price}</p>
         <p><span  className='font-bold'>Available Quantities: </span>{availableQuantity}</p>
         <p><span className='font-bold'>Description: </span>{description}</p>
+        <button class="btn btn-neutral">Buy now</button>
         </div>
         </section>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import toy from "../../assets/toys-corner-logo-vector.jpg"
+import { Link } from 'react-router';
 const Banner = () => {
     return (
              <div>

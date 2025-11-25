@@ -14,7 +14,7 @@ const ToyDetails = () => {
         <div className='bg-base-300 h-[550px] w-[550px] my-10 ml-20 place-content-center place-items-center'>
             <img className='h-[400px]' src={pictureURL} alt="" srcset="" />
         </div>
-        <div className='px-80 ml-100 absolute top-8 space-y-2 '>
+        <div className='px-80 ml-100 absolute top-1 space-y-2 '>
         <p className='text-2xl font-bold'>{toyName}</p>
         <p><span className=' font-semibold'>Seller Name: </span>{sellerName}</p>
         <p><span className='font-bold'>Mail: </span>{sellerEmail}</p>

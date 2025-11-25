@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { use } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router';
 import { AuthContext } from '../../provider/AuthProvider';
 
 const Login = () => {
+  const [error, setError] = useState("");
   const { signIn } = use(AuthContext);
   const location = useLocation();
   const navigate = useNavigate();
@@ -23,8 +24,9 @@ const Login = () => {
     })
     .catch((error) => {
       const errorCode = error.code;
-      const errorMessage = error.message;
-      alert(errorCode, errorMessage);
+      // const errorMessage = error.message;
+      // alert(errorCode, errorMessage);
+      setError(errorCode);
     });
   };
     return (
@@ -34,10 +36,11 @@ const Login = () => {
       <form onSubmit={handleLogin} className="card-body">
         <fieldset className="fieldset">
           <label className="label">Email</label>
-          <input name='email' type="email" className="input" placeholder="Email" />
+          <input name='email' type="email" className="input" placeholder="Email" required/>
           <label className="label">Password</label>
-          <input name='password' type="password" className="input" placeholder="Password" />
+          <input name='password' type="password" className="input" placeholder="Password" required/>
           <div><a className="link link-hover">Forgot password?</a></div>
+          {error && <p className=' text-red-400 text-xs'>{error}</p>}
           <button type='submit' className="btn btn-neutral mt-4">Login</button>
         <p className='text-center font-semibold pt-4'>Don't have an account ? <Link to={"/auth/register"} className=' text-secondary'>Register</Link></p>
         </fieldset>

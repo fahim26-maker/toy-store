@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { use } from 'react';
 import { Link } from 'react-router';
 import { AuthContext } from '../../provider/AuthProvider';
 
 const Register = () => {
     const { createUser, setUser} = use(AuthContext)
+            const [passwordError, setpasswordError] = useState("");
     const handleRegister = (e) => {
         e.preventDefault();
         console.log(e.target);
@@ -13,6 +14,11 @@ const Register = () => {
         const photo = form.photo.value;
         const email = form.email.value;
         const password = form.password.value;
+        if(password.length < 6) {
+            setpasswordError("PASSWORD SHOULD BE MORE THAN 5 CHARACTER")
+        }else {
+            setpasswordError("");
+        }
         console.log({name,photo,email,password})
         createUser(email, password)
         .then((result) => {
@@ -40,6 +46,7 @@ const Register = () => {
           <input name='email' type="email" className="input" placeholder="Email" required/>
           <label className="label">Password</label>
           <input name='password' type="password" className="input" placeholder="Password" required/>
+          {passwordError && <p className='text-xs text-red-400'>{passwordError}</p>}
           <div><a className="link link-hover">Forgot password?</a></div>
           <button type='submit' className="btn btn-neutral mt-4">Register</button>
         <p className='text-center font-semibold pt-4'>Already have an account ? <Link to={"/auth/login"} className=' text-secondary'>Login</Link></p>

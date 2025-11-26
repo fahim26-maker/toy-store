@@ -16,11 +16,19 @@ const Register = () => {
         const photo = form.photo.value;
         const email = form.email.value;
         const password = form.password.value;
-        if(password.length < 6) {
-            setpasswordError("PASSWORD SHOULD BE MORE THAN 5 CHARACTER")
-        }else {
-            setpasswordError("");
-        }
+        if (password.length < 6) {
+        setpasswordError("Password must be at least 6 characters long.");
+        return;
+    } else if (!/[a-z]/.test(password)) {
+        setpasswordError("Password must include at least one lowercase letter.");
+        return;
+    } else if (!/[A-Z]/.test(password)) {
+        setpasswordError("Password must include at least one uppercase letter.");
+        return;
+    } else {
+        setpasswordError("");
+    }
+
         console.log({name,photo,email,password})
         createUser(email, password)
         .then((result) => {

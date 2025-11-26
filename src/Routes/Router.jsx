@@ -9,6 +9,7 @@ import AuthLayout from "../layouts/AuthLayout/AuthLayout";
 import PrivateRoute from "../provider/PrivateRoute";
 import Loading from "../pages/loading/Loading";
 import ErrorElement from "../pages/ErrorElement/Errorelement";
+import Profile from "../pages/Profile/Profile";
 
 
 const router = createBrowserRouter([
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
       },
       {
         path: "my-profile",
-        element: <h1>home</h1>,
+        element: <Profile></Profile>,
       },
       {
         path: "toyDetails/:id",
@@ -38,7 +39,7 @@ const router = createBrowserRouter([
       
       {
         path: "/*",
-        element: <h1 className="text-center">Error</h1>,
+        element: <h1 className="text-center text-4xl mt-10"> 404 page/ not found page</h1>,
       },
        
     ],

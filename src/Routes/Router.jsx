@@ -8,15 +8,17 @@ import Auth from "../pages/Auth/Auth";
 import AuthLayout from "../layouts/AuthLayout/AuthLayout";
 import PrivateRoute from "../provider/PrivateRoute";
 import Loading from "../pages/loading/Loading";
-import ErrorElement from "../pages/ErrorElement/Errorelement";
 import Profile from "../pages/Profile/Profile";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
+
+
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <HomeLayouts></HomeLayouts>,
-    errorElement: <ErrorElement></ErrorElement>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         index: true,

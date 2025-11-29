@@ -2,9 +2,8 @@ import React from 'react';
 import { Link, useRouteError } from 'react-router';
 import lota from "../../assets/Group.png"
 import er from "../../assets/Group (2).png"
-
-const ErrorElement = () => {
-     const error  = useRouteError()
+const ErrorPage = () => {
+      const error  = useRouteError()
     console.log(error)
     return (
         <div class="bg-[#FFF0E1] h-screen">
@@ -19,4 +18,4 @@ const ErrorElement = () => {
     );
 };
 
-export default ErrorElement;
+export default ErrorPage;
